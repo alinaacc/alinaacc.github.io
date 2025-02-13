@@ -45,7 +45,7 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: rgb(45, 182, 255);
+    background: rgb(180, 27, 75);
     display: flex;
     margin-top: 20px;
 }
@@ -66,7 +66,7 @@ main {
 
 /* interests section styles */
 #interests {
-    border: 4px silver ridge;
+    border: 4px rgb(192, 27, 90) ridge;
     padding: 8px;
     margin-top: 20px;
 }
@@ -74,3 +74,28 @@ main {
 h2, h3 {
     margin: 0px;
 }
+/* Portfolio styles */
+.content h1 {
+    color: rgb(16, 139, 68);
+  }
+  
+  #portfolio {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  #portfolio li {
+    background: #10a33c;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #portfolio li:hover {
+    background: #10ad2a;
+  }
+  
+  #portfolio a {
+    text-decoration: none;
+    color: #bd1b4cda;
+  }
